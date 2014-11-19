@@ -12,8 +12,6 @@ namespace Template
     {
         void RegisterRoutes(RouteCollection routes)
         {
-            routes.MapPageRoute("", "SalesReportSummary/{month}/{year}", "~/salessummary.aspx");
-            routes.MapPageRoute("", "SalesReportSummary", "~/salessummary.aspx");
             routes.MapPageRoute("", "Login", "~/login.aspx");
             routes.MapPageRoute("", "", "~/default.aspx");
             routes.MapPageRoute("", "logout", "~/logout.aspx");
